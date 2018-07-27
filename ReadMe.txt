@@ -1,0 +1,1 @@
+Project based on libigl geometry processing library, full description of how to install the framework could be found in http://libigl.github.io/libigl/.

@@ -1,0 +1,16 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/ricogao/Desktop/libigl/tutorial/CW1
+-- Configuring done
+CMake Error at CMakeLists.txt:4 (add_executable):
+  Target "CW1_bin" links to target "igl::core" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+
+CMake Error at CMakeLists.txt:4 (add_executable):
+  Target "CW1_bin" links to target "igl::viewer" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+
+
+-- Generating done
+-- Build files have been written to: /Users/ricogao/Desktop/libigl/tutorial/CW1/cmake-build-debug

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\001.add_noise\;CMake Files\002.draw_pt\;CMake Files\003.normal_est\;CMake Files\101_FileIO\;CMake Files\102_DrawMesh\;CMake Files\103_Events\;CMake Files\104_Colors\;CMake Files\105_Overlays\;CMake Files\106_ViewerMenu\;CMake Files\201_Normals\;CMake Files\202_GaussianCurvature\;CMake Files\203_CurvatureDirections\;CMake Files\204_Gradient\;CMake Files\205_Laplacian\;CMake Files\301_Slice\;CMake Files\302_Sort\;CMake Files\303_LaplaceEquation\;CMake Files\304_LinearEqualityConstraints\;CMake Files\305_QuadraticProgramming\;CMake Files\306_EigenDecomposition\;CMake Files\401_BiharmonicDeformation\;CMake Files\402_PolyharmonicDeformation\;CMake Files\403_BoundedBiharmonicWeights\;CMake Files\404_DualQuaternionSkinning\;CMake Files\405_AsRigidAsPossible\;CMake Files\406_FastAutomaticSkinningTransformations\;CMake Files\407_BiharmonicCoordinates\;CMake Files\501_HarmonicParam\;CMake Files\502_LSCMParam\;CMake Files\503_ARAPParam\;CMake Files\504_NRosyDesign\;CMake Files\505_MIQ\;CMake Files\506_FrameField\;CMake Files\507_PolyVectorField\;CMake Files\508_ConjugateField\;CMake Files\509_Planarization\;CMake Files\510_Integrable\;CMake Files\511_PolyVectorFieldGeneral\;CMake Files\601_Serialization\;CMake Files\602_Matlab\;CMake Files\604_Triangle\;CMake Files\605_Tetgen\;CMake Files\606_AmbientOcclusion\;CMake Files\607_ScreenCapture\;CMake Files\608_LIM\;CMake Files\701_Statistics\;CMake Files\702_WindingNumber\;CMake Files\703_Decimation\;CMake Files\704_SignedDistance\;CMake Files\705_MarchingCubes\;CMake Files\706_FacetOrientation\;CMake Files\707_SweptVolume\;CMake Files\708_Picking\;CMake Files\709_VectorFieldVisualizer\;CMake Files\710_SLIM\;CMake Files\711_Subdivision\;CMake Files\712_DataSmoothing\;CMake Files\CW1\;CMake Files\CW2\;CMake Files\..\;CMake Files\..\external\;CMake Files\..\external\CoMISo\;CMake Files\..\external\nanogui\;CMake Files\..\external\nanogui\ext\;CMake Files\..\external\nanogui\ext\glfw\;CMake Files\..\external\nanogui\ext\glfw\CMake\;CMake Files\..\external\nanogui\ext\glfw\CMake\modules\;CMake Files\..\external\nanogui\ext\glfw\src\;CMake Files\..\external\embree\;CMake Files\..\external\embree\kernels\;CMake Files\..\external\embree\common\;CMake Files\..\external\embree\common\cmake\;CMake Files\..\external\embree\common\sys\;CMake Files\..\external\embree\common\math\;CMake Files\..\external\embree\common\simd\;CMake Files\..\external\embree\common\lexers\;CMake Files\..\external\embree\common\tasking\;CMake Files\..\external\embree\common\algorithms\;CMake Files\..\external\embree\scripts\;CMake Files\..\external\embree\scripts\install_macosx\;CMake Files\..\external\embree\tutorials\;CMake Files\..\external\stb_image\;CMake Files\..\external\lim\;CMake Files\..\external\tetgen\;CMake Files\..\external\triangle\;CMake Files\..\shared\;CMake Files\..\shared\cmake\;CMake Files\Project1\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ricogao/Desktop/libigl/tutorial/Project1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project1_bin">
+				<Option output="/Users/ricogao/Desktop/libigl/tutorial/Project1_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIGL_VIEWER_WITH_NANOGUI"/>
+					<Add option="-DGLEW_BUILD"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add option="-DTUTORIAL_SHARED_PATH=&quot;/Users/ricogao/Desktop/libigl/tutorial/shared&quot;"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../include"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../external/nanogui/ext/glfw/include"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../external/nanogui/ext/glew/include"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../external/nanogui/include"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../external/nanogui/ext/nanovg/src"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/tutorial"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 Project1_bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project1_bin/fast">
+				<Option output="/Users/ricogao/Desktop/libigl/tutorial/Project1_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIGL_VIEWER_WITH_NANOGUI"/>
+					<Add option="-DGLEW_BUILD"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add option="-DTUTORIAL_SHARED_PATH=&quot;/Users/ricogao/Desktop/libigl/tutorial/shared&quot;"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../include"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../external/nanogui/ext/eigen"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../external/nanogui/ext/glfw/include"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../external/nanogui/ext/glew/include"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../external/nanogui/include"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/shared/cmake/../../external/nanogui/ext/nanovg/src"/>
+					<Add directory="/Users/ricogao/Desktop/libigl/tutorial"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 Project1_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ricogao/Desktop/libigl/tutorial/Project1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/Project1/main.cpp">
+			<Option target="Project1_bin"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/001.add_noise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\001.add_noise\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/002.draw_pt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\002.draw_pt\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/003.normal_est/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\003.normal_est\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/101_FileIO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\101_FileIO\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/102_DrawMesh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\102_DrawMesh\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/103_Events/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\103_Events\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/104_Colors/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\104_Colors\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/105_Overlays/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\105_Overlays\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/106_ViewerMenu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\106_ViewerMenu\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/201_Normals/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\201_Normals\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/202_GaussianCurvature/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\202_GaussianCurvature\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/203_CurvatureDirections/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\203_CurvatureDirections\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/204_Gradient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\204_Gradient\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/205_Laplacian/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\205_Laplacian\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/301_Slice/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\301_Slice\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/302_Sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\302_Sort\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/303_LaplaceEquation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\303_LaplaceEquation\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/304_LinearEqualityConstraints/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\304_LinearEqualityConstraints\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/305_QuadraticProgramming/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\305_QuadraticProgramming\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/306_EigenDecomposition/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\306_EigenDecomposition\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/401_BiharmonicDeformation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\401_BiharmonicDeformation\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/402_PolyharmonicDeformation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\402_PolyharmonicDeformation\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/403_BoundedBiharmonicWeights/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\403_BoundedBiharmonicWeights\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/404_DualQuaternionSkinning/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\404_DualQuaternionSkinning\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/405_AsRigidAsPossible/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\405_AsRigidAsPossible\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/406_FastAutomaticSkinningTransformations/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\406_FastAutomaticSkinningTransformations\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/407_BiharmonicCoordinates/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\407_BiharmonicCoordinates\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/501_HarmonicParam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\501_HarmonicParam\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/502_LSCMParam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\502_LSCMParam\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/503_ARAPParam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\503_ARAPParam\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/504_NRosyDesign/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\504_NRosyDesign\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/505_MIQ/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\505_MIQ\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/506_FrameField/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\506_FrameField\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/507_PolyVectorField/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\507_PolyVectorField\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/508_ConjugateField/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\508_ConjugateField\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/509_Planarization/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\509_Planarization\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/510_Integrable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\510_Integrable\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/511_PolyVectorFieldGeneral/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\511_PolyVectorFieldGeneral\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/601_Serialization/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\601_Serialization\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/602_Matlab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\602_Matlab\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/604_Triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\604_Triangle\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/605_Tetgen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\605_Tetgen\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/606_AmbientOcclusion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\606_AmbientOcclusion\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/607_ScreenCapture/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\607_ScreenCapture\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/608_LIM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\608_LIM\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/701_Statistics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\701_Statistics\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/702_WindingNumber/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\702_WindingNumber\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/703_Decimation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\703_Decimation\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/704_SignedDistance/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\704_SignedDistance\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/705_MarchingCubes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\705_MarchingCubes\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/706_FacetOrientation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\706_FacetOrientation\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/707_SweptVolume/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\707_SweptVolume\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/708_Picking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\708_Picking\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/709_VectorFieldVisualizer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\709_VectorFieldVisualizer\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/710_SLIM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\710_SLIM\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/711_Subdivision/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\711_Subdivision\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/712_DataSmoothing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\712_DataSmoothing\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/CW1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CW1\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/CW2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CW2\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/CoMISo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\CoMISo\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/nanogui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\nanogui\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/nanogui/ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\nanogui\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/nanogui/ext/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\..\external\nanogui\ext\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/nanogui/ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/nanogui/ext/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\..\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/nanogui/ext/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/nanogui/ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\..\external\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\embree\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/README.md">
+			<Option virtualFolder="CMake Files\..\external\embree\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/kernels/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\embree\kernels\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/kernels/config.h.in">
+			<Option virtualFolder="CMake Files\..\external\embree\kernels\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/kernels/hash.h.in">
+			<Option virtualFolder="CMake Files\..\external\embree\kernels\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/kernels/rtcore_version.h.in">
+			<Option virtualFolder="CMake Files\..\external\embree\kernels\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\embree\common\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/cmake/check_isa.cpp">
+			<Option virtualFolder="CMake Files\..\external\embree\common\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/cmake/check_isa_default.cmake">
+			<Option virtualFolder="CMake Files\..\external\embree\common\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/cmake/clang.cmake">
+			<Option virtualFolder="CMake Files\..\external\embree\common\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/cmake/embree-config-builddir.cmake">
+			<Option virtualFolder="CMake Files\..\external\embree\common\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/cmake/embree-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\external\embree\common\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/cmake/embree-config.cmake">
+			<Option virtualFolder="CMake Files\..\external\embree\common\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/cmake/ispc.cmake">
+			<Option virtualFolder="CMake Files\..\external\embree\common\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/cmake/package.cmake">
+			<Option virtualFolder="CMake Files\..\external\embree\common\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/cmake/test.cmake">
+			<Option virtualFolder="CMake Files\..\external\embree\common\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/cmake/uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\..\external\embree\common\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/sys/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\embree\common\sys\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\embree\common\math\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/simd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\embree\common\simd\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/lexers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\embree\common\lexers\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/tasking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\embree\common\tasking\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/common/algorithms/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\embree\common\algorithms\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/scripts/install_macosx/uninstall.command">
+			<Option virtualFolder="CMake Files\..\external\embree\scripts\install_macosx\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/embree/tutorials/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\embree\tutorials\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/stb_image/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\stb_image\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/lim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\lim\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/tetgen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\tetgen\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../external/triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\external\triangle\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../shared/cmake/CXXFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\shared\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../shared/cmake/FindCGAL.cmake">
+			<Option virtualFolder="CMake Files\..\shared\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../shared/cmake/FindMATLAB.cmake">
+			<Option virtualFolder="CMake Files\..\shared\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../shared/cmake/FindMOSEK.cmake">
+			<Option virtualFolder="CMake Files\..\shared\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/../shared/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\..\shared\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ricogao/Desktop/libigl/tutorial/Project1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Project1\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
